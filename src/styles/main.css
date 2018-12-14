@@ -1,0 +1,27 @@
+div {
+  border: 2px solid black;
+  margin: 3px;
+}
+
+button {
+  background-color: #29abe2;
+  border: none;
+  border-radius: 8px;
+  color: 		#ffffff;
+  margin: 10px;
+  padding: 7.5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.19);
+
+}
+
+
+button:hover {
+background-color: #2ec0ff; /* Green */
+color: white;
+}
