@@ -37,12 +37,14 @@ const domBuilder = {
     <label for="lego__name">Name:</label>
     <input id="lego__name" name="lego__name" type="text" autofocus />
     </fieldset>
-    <fieldset>
+    <fieldset id="buttonTag">
     <label for="lego__shape">Shape:</label>
     <input id="lego__shape" name="lego__shape" type="text" autofocus />
     </fieldset>
     <button class="btn lego__save">Save Lego Creation</button>
-    </article>`
+    <button class="resultBtn">Show Saves Creation</button>
+    <button class="removeResults">Remove Results</button>
+    </article><article id="fishsticks"></article>`
     let displayContainer = document.querySelector("#display-container")
     displayContainer.innerHTML = inputForm;
 

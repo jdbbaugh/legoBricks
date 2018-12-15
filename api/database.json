@@ -1,20 +1,6 @@
 {
   "legos": [
     {
-      "creatorName": "",
-      "legoName": "",
-      "legoColor": "Red",
-      "legoShape": "",
-      "id": 13
-    },
-    {
-      "creatorName": "hernando",
-      "legoName": "burrito",
-      "legoColor": "Red",
-      "legoShape": "curly",
-      "id": 14
-    },
-    {
       "creatorName": "Geloto",
       "legoName": "Schoolbus",
       "legoColor": "Yellow",
@@ -22,53 +8,32 @@
       "id": 15
     },
     {
-      "creatorName": "Jameson",
-      "legoName": "lamp",
-      "legoColor": "6",
-      "legoShape": "awkward",
-      "id": 16
+      "creatorName": "bob",
+      "legoName": "lightbulb",
+      "legoColor": "Yellow",
+      "legoShape": "lightbulb",
+      "id": 22
     },
     {
-      "creatorName": "elise",
-      "legoName": "stuff",
-      "legoColor": "5",
-      "legoShape": "strange",
-      "id": 17
-    },
-    {
-      "creatorName": "Christopher",
-      "legoName": "desk",
-      "legoColor": "3",
-      "legoShape": "strongish",
-      "id": 18
-    },
-    {
-      "creatorName": "Christopher",
-      "legoName": "desk",
-      "legoColor": "3",
-      "legoShape": "strongish",
-      "id": 19
-    },
-    {
-      "creatorName": "jeff",
-      "legoName": "cardboard",
-      "legoColor": "Black",
-      "legoShape": "box",
-      "id": 20
+      "creatorName": "Jon",
+      "legoName": "plug",
+      "legoColor": "Blue",
+      "legoShape": "pluggy",
+      "id": 24
     },
     {
       "creatorName": "",
       "legoName": "",
       "legoColor": "Red",
       "legoShape": "",
-      "id": 21
+      "id": 25
     },
     {
-      "creatorName": "bob",
-      "legoName": "lightbulb",
-      "legoColor": "Yellow",
-      "legoShape": "lightbulb",
-      "id": 22
+      "creatorName": "jorge",
+      "legoName": "bass",
+      "legoColor": "Black",
+      "legoShape": "circular",
+      "id": 26
     }
   ],
   "colors": [

@@ -12,25 +12,8 @@ const eventListeners = {
         legoColor: color,
         legoShape: shape
     };
-
-    data.getResources()
-    .then(resourcesArray => {
-      resourcesArray.forEach(legoness => {
-        document.querySelector("#display-container").appendChild(domComponents.createDomElement({
-          elementType: "div",
-          content: `${legoness.id} Creator: ${legoness.creatorName} Name: ${legoness.legoName} Shape: ${legoness.legoShape} Color: ${legoness.legoColor}`,
-          cssClass: `legoId${legoness.id}`
-        }))
-        // console.log(legoness);
-        document.querySelector(`#display-container`).appendChild(domComponents.createDomElement({
-          elementType: "button",
-          content: "delete lego from json",
-          cssClass: `${legoness.id}`
-        }))
-      })
-      
-    });
  data.postLego(legoObject);
+ this.showSaves();
     },
     deleteButton () {
       // console.log(event.path[0].classList[0]);
@@ -42,5 +25,28 @@ const eventListeners = {
       
       gone.parentNode.removeChild(gone);
       alsoGone.parentNode.removeChild(alsoGone);
-    }
+    },
+
+  showSaves () {
+    data.getResources()
+    .then(resourcesArray => {
+      resourcesArray.forEach(legoness => {
+        document.querySelector("#fishsticks").appendChild(domComponents.createDomElement({
+          elementType: "div",
+          content: `${legoness.id} Creator: ${legoness.creatorName} Name: ${legoness.legoName} Shape: ${legoness.legoShape} Color: ${legoness.legoColor}`,
+          cssClass: `legoId${legoness.id}`
+        }))
+        // console.log(legoness);
+        document.querySelector(`#fishsticks`).appendChild(domComponents.createDomElement({
+          elementType: "button",
+          content: "delete lego from json",
+          cssClass: `${legoness.id}`
+        }))
+      })
+      
+    });
+  },
+  ridThouSaveVisuals() {
+    domBuilder.appendInputForm();
+  }
   };
